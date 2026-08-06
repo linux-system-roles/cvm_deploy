@@ -26,6 +26,8 @@ __trustee_client_required_facts:
 __trustee_client_required_facts_subsets: "{{ ['!all', '!min'] +
   __trustee_client_required_facts }}"
 
+__trustee_client_write_log_file: false
+
 # BEGIN - DO NOT EDIT THIS BLOCK - rh distros variables
 # Ansible distribution identifiers that the role treats like RHEL
 __trustee_client_rh_distros:
